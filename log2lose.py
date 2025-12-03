@@ -4,4 +4,4 @@ import csv
 with open('next_reward.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['user_id', 'reward'])
-    writer.writerow([1680, 6.0])
+    writer.writerow([1680, 7.0])
